@@ -6,6 +6,7 @@ use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
+
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -16,6 +17,7 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
         $this->call(TaskSeeder::class);
         $this->call(CategorySeeder::class); 
+        $this->call(usersSeeder::class);
 
         User::factory()->create([
             'name' => 'Test User',

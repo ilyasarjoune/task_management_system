@@ -79,7 +79,7 @@
     </table>
 </div>
 
-<!-- Modal for adding a new task -->
+<!-- Modal for adding a new task -->  
 <div class="modal fade" id="addTaskModal" tabindex="-1" aria-labelledby="addTaskModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
